@@ -1,0 +1,38 @@
+ul{
+	font-size:48px;
+	list-style: none;
+	position: absolute;
+	left:830px;
+	top:20px;
+}
+#score{
+	color:red;
+}
+#canvas{
+	border:1px solid #000;
+}
+a{
+	font-size:20px;
+	position: absolute;
+	left:870px;
+	top:300px;
+}
+#controlButton1{
+            position: absolute;
+            display:none;
+            left: 870px;
+            top: 350px;
+         }
+#controlButton2{
+            position: absolute;
+            display:none;
+            left: 930px;
+            top: 350px;
+        }
+#video {
+            display: none;
+            position: absolute;
+            left: 10px;
+            top: 10px;
+         }
+

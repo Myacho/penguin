@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+	<ul>
+		<li>打中数：<span id="score">0</span></li>
+		<li>倒计时：<span id="time">60</span></li>
+		<li>
+			<input id='scaleSlider' type='range'
+               min='1' max='4' step='1' value='1'/> 
+        </li>
+		<li>
+			<output id='scaleOutput'>级别1</output>
+        </li>
+	</ul>
+	<div id='controls' >
+        <input id='controlButton1' type='button' value='播放'/>
+        <input id='controlButton2' type='button' value='开始游戏'/>
+    </div>
+    <video id='video' controls src='penguin.mp4'></video>
+	<a id='help' href="#"  >帮助</a>
+	<canvas id="canvas" width="800" height="800" >
+		Your Browser does not support Canvas, please upgrade
+	</canvas>
+	<script type="text/javascript" src="lab3.js"></script>
+</body>
+</html>
